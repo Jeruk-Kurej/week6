@@ -19,6 +19,7 @@ import androidx.compose.material.icons.filled.DirectionsRun
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.FlashOn
 import androidx.compose.material.icons.filled.LocalFireDepartment
+import androidx.compose.material.icons.filled.School
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
@@ -62,7 +63,8 @@ fun WorkoutFormView(
         Icons.Default.LocalFireDepartment,
         Icons.Default.Favorite,
         Icons.Default.FlashOn,
-        Icons.Default.DirectionsRun
+        Icons.Default.DirectionsRun,
+        Icons.Default.School
     )
     var selectedIcon by remember { mutableStateOf(icons.first()) }
 
